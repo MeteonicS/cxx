@@ -22,3 +22,9 @@ void buffer_overflow_001_P1()
     char fixed_buf[10];
     sprintf(fixed_buf, "Very long format string\n"); //DEFECT
 }
+
+void buffer_overflow_001_P2()
+{
+    char fixed_buf[10];
+    sprintf(fixed_buf, "Very long format string\n"); //DEFECT
+}
